@@ -6,7 +6,7 @@ import maldives from '../assets/maldives.jpg';
 import maldives2 from '../assets/maldives2.jpg';
 export const Destination = () => {
   return (
-    <div className="mx-w-[1240px] mx-auto text-center py-16 px-4">
+    <div className="max-w-[1240px] mx-auto text-center py-16 px-4">
         <div className="">
             <h1>All-Inclusive Resorts</h1>
             <p  className="py-4">On the Caribbean's Best Beaches</p>
