@@ -3,6 +3,7 @@ import { Destination } from "./componsents/Destination";
 import { Hero } from "./componsents/Hero";
 import { Navbar } from "./componsents/Navbar";
 import { Search } from "./componsents/Search";
+import { Select } from "./componsents/Select";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <Destination/>
       <Search/>
+      <Select/>
     </div>
   );
 }
