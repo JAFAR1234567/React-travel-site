@@ -1,6 +1,7 @@
 import "./App.css";
 import { Carasol } from "./componsents/Carasol";
 import { Destination } from "./componsents/Destination";
+import { Footer } from "./componsents/Footer";
 import { Hero } from "./componsents/Hero";
 import { Navbar } from "./componsents/Navbar";
 import { Search } from "./componsents/Search";
@@ -15,6 +16,7 @@ function App() {
       <Search/>
       <Select/>
       <Carasol/>
+      <Footer/>
     </div>
   );
 }

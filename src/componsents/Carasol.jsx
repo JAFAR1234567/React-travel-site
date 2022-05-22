@@ -22,7 +22,7 @@ export const Carasol = () => {
     setSlider(slider === length - 1 ? 0 : slider + 1);
   };
   return (
-    <div className="max-w-[1240px] mx-auto relative flex items-center justify-center px-4 py-16">
+    <div className="max-w-[1240px] mx-auto relative flex items-center justify-center px-4 py-10">
       <BsArrowRightSquareFill
         onClick={nextSlide}
         className="absolute top-[50%] text-3xl right-8 text-white cursor-pointer"
