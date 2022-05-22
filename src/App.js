@@ -1,4 +1,5 @@
 import "./App.css";
+import { Carasol } from "./componsents/Carasol";
 import { Destination } from "./componsents/Destination";
 import { Hero } from "./componsents/Hero";
 import { Navbar } from "./componsents/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <Destination/>
       <Search/>
       <Select/>
+      <Carasol/>
     </div>
   );
 }
